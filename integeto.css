@@ -1,0 +1,96 @@
+#tenyer{
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    border: 1px solid black;
+    
+    /*Középre helyezés*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#ujj1{
+    width: 35px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    transform: translate(-50%,-50%);
+    background-color: yellow;
+    transform: rotate(-5deg);
+    border-bottom: 0px yellow solid;
+}
+
+#ujj2{
+    width: 35px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    background-color:yellow;
+    border-bottom: 0px yellow solid;
+}
+
+#ujj3{
+    width: 35px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    background-color:yellow;
+    border-bottom: 0px yellow solid;
+}
+
+#ujj4{
+    width: 35px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    background-color:yellow;
+    transform: rotate(5deg);
+    border-bottom: 0px yellow solid;
+
+    
+}
+
+#ujj5{
+    width: 35px;
+    height: 115px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-color:yellow;
+    transform: rotate(13deg);
+    border-bottom: 0px yellow solid;
+}
+
+#kez{
+    animation: integet 5s infinite;
+    height: 600px;
+    
+}
+
+@keyframes integet{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(13deg);}
+    100%{transform: rotate(-13deg);}
+}
